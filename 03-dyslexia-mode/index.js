@@ -61,6 +61,8 @@ if(document.querySelector("div").classList.contains("content")) {
 const myfun = () => {
   let element = document.querySelector(".content");
   element.classList.toggle("dyslexia-mode");
+  let ele2 = document.querySelector("h1");
+  ele2.classList.toggle("dysheader");
 }
 // toggle dyslexia support
 // const isPressed = window.localStorage.getItem('dyslexic') === 'true';

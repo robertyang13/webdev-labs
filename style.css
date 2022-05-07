@@ -123,6 +123,7 @@ button {
     width: 50%;
     margin-left: 25%;
     text-rendering: optimizeLegibility;
+    color: #000;
 }
 .dyslexia-mode main {
     line-height: 2.0;
@@ -148,5 +149,15 @@ button {
   .dyslexia-mode main li:nth-of-type(odd) {
     background-color: palegoldenrod;
 }
+.dysheader {
+    font-size: 250%;
+    letter-spacing: .35ch;
+    word-spacing: 1.225ch;
+    font-weight: 600;
+    color: #000;
+}
+/* .ch1 {
+
+} */
   /* .dyslexia-mode {
     font-size: 150%; /* assuming 16px base size, convert to 18pt */
